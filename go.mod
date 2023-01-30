@@ -1,4 +1,4 @@
-module github.com/jamietsao/aws-ssm-env/v2
+module github.com/gametimesf/aws-ssm-env/v2
 
 go 1.18
 
