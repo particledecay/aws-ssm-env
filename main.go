@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/service/ssm"
-	"github.com/jamietsao/aws-ssm-env/fetch"
+	"github.com/gametimesf/aws-ssm-env/v2/fetch"
 )
 
 var (
