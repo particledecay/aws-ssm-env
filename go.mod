@@ -1,6 +1,6 @@
 module github.com/gametimesf/aws-ssm-env/v2
 
-go 1.18
+go 1.21.5
 
 require github.com/aws/aws-sdk-go v1.44.151
 
