@@ -75,6 +75,15 @@ Or download [binary](https://github.com/gametimesf/aws-ssm-env/releases/latest):
 > chmod 755 aws-ssm-env
 ```
 
+### Release File Generation
+Follow the steps below to create the zip files needed for the release. The value for tag should match your release tag version.
+```
+export TAG=v2.0.2
+make release
+```
+
+**Note**: If you receive the following error: `unknown directive: toolchain`, you must first upgrade to Go 1.21 or higher.
+
 ### Author
 Jamie Tsao
 
